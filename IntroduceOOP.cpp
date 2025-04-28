@@ -18,3 +18,11 @@ class Planet{
             cout << "Input Gravitasi : ";
             cin >> Gravitasi;
         }
+
+int main(){
+    Planet plnt;
+    plnt.displayData();
+        cout << "Namaku adalah" << input.Nama<<endl;
+        cout << "Ukuranku adalah" <<input.Diameter<<endl;
+    plnt.inputData();
+}
