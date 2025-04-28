@@ -10,7 +10,7 @@ class Planet{
         void displayData(){
             cout << ", Gravitasiku" << Gravitasi<<endl;
          }
-        void inputData(){
+         void inputData(){
             cout << "Input Nama : ";
             cin >> Nama;
             cout << "Input Ukuran : ";
