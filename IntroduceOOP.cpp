@@ -22,7 +22,7 @@ class Planet{
 int main(){
     Planet plnt;
     plnt.displayData();
-        cout << "Namaku adalah" << input.Nama<<endl;
-        cout << "Ukuranku adalah" <<input.Diameter<<endl;
+        cout << "Namaku adalah" << plnt.Nama<<endl;
+        cout << "Ukuranku adalah" <<plnt.Diameter<<endl;
     plnt.inputData();
 }
